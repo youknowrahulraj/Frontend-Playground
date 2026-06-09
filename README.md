@@ -5,8 +5,8 @@ A collection of frontend development projects built using HTML, CSS, and JavaScr
 Here are the live demonstrations of projects built during my web development learning journey.
 
 ### Available Projects
-* [CSS Transform Playgrod](https://youknowrahulraj.github.io/Frontend-Playground/CSS%20Transform%20Property/)
-* [Web Calculator](https://youknowrahulraj.github.io/Frontend-Playground/Calculator/)
-* [Facebook Login Clone](https://youknowrahulraj.github.io/Facebook%20Login%20Clone/) (Web version)
+* [CSS Transform Playground](https://youknowrahulraj.github.io/Frontend-Playground/CSS%20Transform%20Property/)
+* [Web Calculator](https://youknowrahulraj.github.io/Frontend-Playground/calculator/)
+* [Facebook Login Clone](https://youknowrahulraj.github.io/Frontend-Playground/Facebook%20Login%20page/) (Web version)
 
 More projects coming soon...
