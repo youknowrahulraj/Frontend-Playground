@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.upper {
+    height: 40vh;
+    margin-top: 5px;
+}
+
+.upper img {
+    margin-top: 0.5rem;
+    border-radius: 50%;
+}
+
+.upper img:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.upper h2 {
+    margin: 2.5rem 0 0 0;
+    font-weight: 500;
+}
+
+.upper p {
+    margin: 0.3rem 0 0.3rem 0;
+}
+
+input {
+    width: 37rem;
+    height: 3.5rem;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+    margin: 5px 0 5px 0;
+    border: none;
+    outline: 1px solid rgba(128, 128, 128, 0.3);
+    position: relative;
+    top: 5px;
+}
+
+input:hover {
+    outline: 1px solid rgba(128, 128, 128, 0.9);
+}
+
+input:focus {
+    outline: 1px solid #1877F2;
+}
+
+label {
+    position: relative;
+    bottom: 2.7rem;
+    left: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    transition-duration: 0.3s;
+}
+
+button {
+    width: 38rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    background-color: rgb(0, 100, 224);
+    margin: 1rem 0 1rem 0;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    transition-duration: 0.1sec;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+button:hover {
+    background-color: rgb(2, 95, 209);
+}
+
+input:focus~label,
+input:valid~label {
+    color: #1877F2;
+    bottom: 3.5rem;
+    font-size: 90%;
+}
+
+.lower {
+    height: 50vh;
+    width: 70%;
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+
+.part1 {
+    width: 70%;
+    color: rgba(128, 128, 128, 1);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.part1 a {
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.part2 {
+    margin-top: 2rem;
+}
+
+.part2 div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.part2 a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+}
+
+.wraper {
+    display: flex;
+}
+
+.box1 {
+    width: 20%;
+    height: 100lvh;
+}
+
+.box1 img {
+    margin: 15% 0 0 15%;
+}
+
+.box1 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;
+    font-weight: 650;
+    line-height: 65px;
+    position: relative;
+    top: 22%;
+    left: 12%;
+}
+
+.ncolor {
+    color: #1877F2;
+}
+
+.box2 {
+    width: 35%;
+    height: 100lvh;
+}
+
+.box2 img {
+    width: 120%;
+    position: relative;
+    right: 20%;
+}
+
+.box3 {
+    width: 45%;
+    height: 100lvh;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid rgba(128, 128, 128, 0.3);
+}
+
+.box3 p {
+    font-size: 1.1rem;
+    margin-right: 27rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.box3 label {
+    position: relative;
+    bottom: 2.7rem;
+    left: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    transition-duration: 0.3s;
+}
+
+.box3 input {
+    width: 35rem;
+    height: 3.5rem;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+    margin: 5px 0 5px 0;
+    border: none;
+    outline: 1px solid rgba(128, 128, 128, 0.3);
+    position: relative;
+    top: 5px;
+}
+
+.box3 input:focus {
+    outline: 1px solid #1877F2;
+}
+
+.box3 input:hover {
+    outline: 1px solid rgba(128, 128, 128, 0.9);
+}
+
+.box3 button {
+    width: 36rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    background-color: rgb(0, 100, 224);
+    margin: 1rem 0 1rem 0;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    transition-duration: 0.1sec;
+}
+
+.box3 button:active {
+    transform: scale(0.97);
+}
+
+.box3 button:hover {
+    background-color: rgb(2, 95, 209);
+}
+
+.box3 a {
+    display: block;
+    width: 35rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.box3 input:focus~label,
+.box3 input:valid~label {
+    color: #1877F2;
+    bottom: 3.5rem;
+    font-size: 90%;
+}
+
+.box3 a:active {
+    transform: scale(0.97);
+}
+
+.signup {
+    outline: 1px solid rgb(0, 100, 224);
+    margin-top: 1.5rem;
+}
+
+a:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.lower {
+    font-family: "Roboto", sans-serif;
+    color: rgba(128, 128, 128, 1);
+}
+
+.part1 {
+    width: 40%;
+    color: rgba(128, 128, 128, 1);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left:15%;
+}
+
+.part1 a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 1);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-top: 0;
+}
+
+.part2 {
+    margin-top: 1rem;
+    margin: auto;
+    width: 70%;
+}
+
+.part2 div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+    line-height: 0.8rem;
+}
+
+.part2 a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 1);
+}
+
+.part2 a:hover {
+    text-decoration: underline;
+}
