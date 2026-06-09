@@ -114,3 +114,15 @@ h1 {
 .matrix3d:hover {
   transform: perspective(500px) rotateY(40deg);
 }
+footer {
+    margin-top: 60px;
+    padding: 25px;
+    text-align: center;
+    background: #1e293b;
+    color: #94a3b8;
+    border-top: 2px solid #38bdf8;
+}
+
+footer p {
+    margin: 6px 0;
+}
