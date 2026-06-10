@@ -8,6 +8,6 @@ Here are the live demonstrations of projects built during my web development lea
 * [CSS Transform Playground](https://youknowrahulraj.github.io/Frontend-Playground/CSS%20Transform%20Property/)
 * [Web Calculator](https://youknowrahulraj.github.io/Frontend-Playground/calculator/)
 * [Facebook Login Clone](https://youknowrahulraj.github.io/Frontend-Playground/Facebook%20Login%20page/) (Web version)
-* [Use-of-Form](https://youknowrahulraj.github.io/Frontend-Playground/Use-of-Form/) (Web version)
+* [Use-of-Forms](https://youknowrahulraj.github.io/Frontend-Playground/Use-of-Forms/) (Web version)
 
 More projects coming soon...
