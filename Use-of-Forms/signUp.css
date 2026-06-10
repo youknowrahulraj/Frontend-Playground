@@ -1,0 +1,195 @@
+/* Page background */
+body {
+  background: linear-gradient(to right, #a8e063, #56ab2f);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Signup container */
+.container {
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  text-align: center;
+  animation: fadeIn 1.2s ease;
+}
+
+/* Headings */
+.container h1 {
+  color: #2e7d32;
+  margin-bottom: 5px;
+  font-size: 28px;
+}
+
+.container h3 {
+  color: #444;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Form layout */
+form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+}
+
+/* Gender row */
+.gender-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Checkbox label fix */
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+/* Login link */
+.login-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.login-link a {
+  color: #2e7d32;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ✅ Responsive design */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .container h1 {
+    font-size: 22px;
+  }
+
+  .container h3 {
+    font-size: 16px;
+  }
+}
+/* Checkbox and label side by side */
+.checkbox-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;   /* checkbox aur text ke beech spacing */
+}
+.layout-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    z-index: 1000;
+}
+
+.layout-btn {
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.layout-btn:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.page-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    gap: 10px;
+}
+
+.page-nav a {
+    width: 50px;
+    height: 50px;
+    background: #4a6cf7;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.page-nav a:hover {
+    background: #3557d5;
+    transform: scale(1.1);
+}

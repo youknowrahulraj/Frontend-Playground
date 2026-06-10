@@ -1,0 +1,122 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    
+
+}
+.fill {
+    margin: 16px auto;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px burlywood;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+}
+select{
+     width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+button{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(237, 204, 160);
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+input[type="checkbox"] {
+    width: auto;
+    position: relative;
+    top: 3px;
+}
+button:active {
+    transform: scale(0.95);
+}
+input:hover{
+    background-color: rgb(197, 188, 177);
+}
+.layout-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    z-index: 1000;
+}
+
+.layout-btn {
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.layout-btn:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.page-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    gap: 10px;
+}
+
+.page-nav a {
+    width: 50px;
+    height: 50px;
+    background: #4a6cf7;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.page-nav a:hover {
+    background: #3557d5;
+    transform: scale(1.1);
+}
