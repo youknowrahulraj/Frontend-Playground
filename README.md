@@ -10,5 +10,6 @@ Here are the live demonstrations of projects built during my web development lea
 * [Facebook Login Clone](https://youknowrahulraj.github.io/Frontend-Playground/Facebook%20Login%20page/) (Web version)
 * [Use-of-Forms](https://youknowrahulraj.github.io/Frontend-Playground/Use-of-Forms/) (Web version)
 * [Tic Tac Toi](https://youknowrahulraj.github.io/Frontend-Playground/tic%20tac%20toi/)
+* [Counting app](https://youknowrahulraj.github.io/Frontend-Playground/counting%20app/)
   
 More projects coming soon...
